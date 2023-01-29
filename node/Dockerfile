@@ -10,7 +10,7 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
     && rm dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz
 
 RUN npm init -y
-RUN npm install express
+RUN npm install express --save
 
 #RUN chmod 755 /usr/local/bin/entrypoint.sh
 
