@@ -11,6 +11,7 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
 
 RUN npm init -y
 RUN npm install --save express
+RUN npm install --save mysql
 
 #RUN chmod 755 /usr/local/bin/entrypoint.sh
 
